@@ -1,0 +1,6 @@
+mysql:
+  build: .
+  ports:
+  - "222:22"
+  - "9001:9001"
+  hostname: mysql
